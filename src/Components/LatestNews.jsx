@@ -1,7 +1,7 @@
 import {React , useState} from 'react'
 import styles, { layout } from '../utils/style';
 import { TagPicturres } from '../utils'
-import { people01, people02, people03,  } from '../assets';
+import { people01, people03,  } from '../assets';
 import { products } from '../utils/sold';
 // import React from 'react';
 
