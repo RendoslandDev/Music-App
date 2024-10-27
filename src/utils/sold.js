@@ -121,3 +121,20 @@ export const products = [
         image: "https://sweet-muzic.com/wp-content/uploads/2022/05/P320-Professional-Windscreen-Shield-for-Shortgun-Microphones.jpg"
     }
 ]
+
+
+
+export const navbar=[
+     {
+    id: "home",
+    title: "DAB-BEATS",
+  },
+  {
+    id: "Merch",
+    title: "Merch",
+  },
+  {
+    id: "About",
+    title: "Product",
+  },
+]

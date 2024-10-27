@@ -17,9 +17,9 @@ export default function LatestNews() {
              <div className='coffee-grid'>
         {TagPicturres.slice(0, 7).map((option , optionIndex)=>{
           return (
-            <button  className={'button-card p-5 '} key={optionIndex}>
+            <button  className={'button-card  '} key={optionIndex}>
               <p className='p-1'>{option.name}</p>
-              <button className='h-[250px]'><img src={option.image} alt="" /></button>
+              <button ><img src={option.image} alt="" /></button>
               <span className='mt-5'>{option.title}</span>
             </button>
           )

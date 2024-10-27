@@ -27,12 +27,12 @@ export default function Layout(props) {
             <h1 className='text-gradient'>DAB-BEATS</h1>
             <p>Good Sounds Initiatives</p>
           </div>
-           <DropdownButton id="dropdown-item-button" title='CHECK'>
+           <DropdownButton id="dropdown-item-button" title='Menu'>
       <Dropdown.Item as="button"><a href="/" className='text-white'>Home</a></Dropdown.Item>
-      <Dropdown.Item as="button"><a href="/BioPage" className='text-white'>Bio</a></Dropdown.Item>
-      <Dropdown.Item as="button"><a href="/ShopPage" className='text-white'>Shop</a></Dropdown.Item>
-      <Dropdown.Item as="button"><a href="/Contact" className='text-white'>Contact</a></Dropdown.Item>
-      <Dropdown.Item as="button"><a href="/EventPage" className='text-white'>Events</a></Dropdown.Item>
+      <Dropdown.Item as="button"><a href="/biography" className='text-white'>Bio</a></Dropdown.Item>
+      <Dropdown.Item as="button"><a href="/shop" className='text-white'>Shop</a></Dropdown.Item>
+      <Dropdown.Item as="button"><a href="/contact" className='text-white'>Contact</a></Dropdown.Item>
+      <Dropdown.Item as="button"><a href="/event" className='text-white'>Events</a></Dropdown.Item>
 
     </DropdownButton>
         </header>
@@ -40,14 +40,7 @@ export default function Layout(props) {
 
     const footer = (
          <footer>
-          
-          {/* <section className='card info-card coffee-grid px-5'>
-               <p><span className='text-gradient text-3xl'>DAB</span> was made by  <a href="#">PENTA-TECH</a> </p>
-               <div className=''>
-              <img src={twitter} alt="" />
-                   <img src={instagram} alt="" />
-                   <img src={linkedin} alt="" />          </div>
-          </section> */}
+
           <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
